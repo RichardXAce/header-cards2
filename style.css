@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border: none;
+}
+
+body {
+    direction: rtl;
+}
+
+header {
+    height: 25px;
+    background-color: rgb(1, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    justify-content: space-between;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+    padding: 0 10px;
+
+}
+
+.info svg {
+    color: goldenrod;
+    width: 15px;
+    height: 15px;
+    justify-content: space-between;
+    padding:0 10px;
+}
+
+.info span {
+    color: #fff;
+    padding: 0 15px;
+}
+
+/* ----------------------- navbar----------------------------- */
+.navbar {
+    height: 50px;
+    background-color: #F36944;
+
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+
+}
+
+.main-nav a {
+    padding: 0 15px;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.main-nav a:hover {
+    color: rgb(222, 196, 50);
+}
+
+.search input {
+
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+/* ------------------ cards------------------------------ */
+.cards {
+    height: 400px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align:center;
+}
+
+.card {
+    width: 25%;
+    box-shadow:2px 3px 6px rgb(57,51,51);
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+}
+
+.txt svg{
+    padding:10px 15px;
+}
+.card button{
+    background-color: rgb(255, 0, 89);
+    color:#fff;
+    padding:12px 24px;
+    border-radius:20px;
+    margin:20px 0px;
+}
+.txt p{
+    text-shadow:3px 4px 1px rgb(222, 140, 52);
+}
+
+
+.search input{
+    height:30px;
+    width: 200px;
+    border-radius: 20px;
+    padding:0 5px;
+}
+input {
+    border:none;
+}
+
+.cards{
+    height: 400px;
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+.card{
+    width:25%;
+
+
+}
+.card img{
+    width:100%;
+    height: 200px;
+    ;
+    
+    
+}
+@media only screen and (max-width:500px){
+.social img{
+width:15px;
+height: 15px;
+padding: 0 5px;
+
+
+}
+@media only screen and (max-width:838px) {
+.main-nav a{
+    transition:all 1.5s;
+    font-weight: bold;
+    padding:0 1.6vw;
+    font-size:16px;
+
+}
+
+}
+.search{
+    visibility: hidden;
+    
+}
+.info svg{
+    padding:0 5px;
+}
+.info span{
+    padding:0 7px;
+    font-size:13px;
+}
+
+.cards {
+    height: 600px;
+}
